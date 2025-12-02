@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#universal{
+    background-color: bisque;
+    margin: 10%;
+    padding: 20px;
+}
+
+#logoNavDiv{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    line-height: 40px;
+}
+
+#logoDiv{
+    padding-left:20px;
+}
+
+#navDiv{
+    padding-right: 40px;
+}
+
+#boxesDiv{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.box1{
+    background-color: beige;
+    min-height: 70px;
+    width: 22%;
+}
+
+#BigBox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bb{
+    background-color: beige;
+    line-height: 150px;
+    width: 30%;
+    text-align: center;
+    min-height: 150px;
+}
+
+#foot{
+    background-color: beige;
+    margin-top: 20px;
+    min-height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#universal{
+    background-color:bisque;
+    margin: 20px;
+    padding: 20px;
+}
+
+#logoDiv{
+    background-color: beige;
+    padding-left: 20px;
+    line-height: 40px;
+    margin:20px;
+    min-height: 40px;
+}
+
+#parentDiv{
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#sideDiv{
+    margin: 0%;
+    width: 30%;
+}
+
+#headBodyDiv{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    gap:20px;
+}
+
+#headDiv{
+    background-color: beige;
+    
+    min-height: 70px;
+    line-height: 70px;
+    text-align: center;
+
+}
+
+#bodyDiv{
+    background-color: beige;
+    text-align: center;
+    line-height: 300px;
+}
+
+#footDiv{
+    background-color: beige;
+    margin:20px;
+    padding-left: 20px;
+    min-height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
