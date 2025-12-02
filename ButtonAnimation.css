@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    margin: 200px;
+}
+
+.btn{
+    background-color: blue;
+    text-align: center;
+    color: aquamarine;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: 150ms ease;
+    border-radius: 5px;
+    animation-duration: 3s;
+    animation-name: spin;
+}
+
+.btn:hover{
+    background-color: brown;
+    scale: 2;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
