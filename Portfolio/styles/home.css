@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #f8f5f0;
+    color: #333;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffe3d6;
+    padding: 10px 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#navBar a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+#navBar a:hover{
+    color: #d35400;
+    transform: translateY(-2px);
+}
+
+#head h2{
+    font-size: 26px;
+    color: #d35400;
+    font-weight: 600;
+}
+
+
+#bodyDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    width: 85%;
+}
+
+#imgDiv{
+    width: 40%;
+    text-align: center;
+}
+
+#myImage{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    border: 5px solid bisque;
+}
+
+#aboutDiv{
+    width: 55%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.7;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+
+#links{
+    margin: 80px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#links a{
+    background: #ffe4c4;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border: 2px solid #d35400;
+}
+
+#links a:hover{
+    background: #d35400;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 900px){
+
+    #bodyDiv{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #aboutDiv{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    #imgDiv{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #navBar{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #navBar a{
+        margin: 10px 0;
+    }
+
+    #links{
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+    }
+
+    #links a{
+        width: 100%;
+        text-align: center;
+    }
+}
